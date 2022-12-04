@@ -5,3 +5,4 @@ URLLC service represents that it requires high reliability and low latency commu
 ![pf_ecdf](https://user-images.githubusercontent.com/51235418/205495829-472669d9-0ad9-4685-868b-310ef5a667d8.svg)
 ![myimage](https://user-images.githubusercontent.com/51235418/205495861-cba2c475-fb84-4d6e-97a7-dcbe2e2c6cd4.svg)
 ![embb](https://user-images.githubusercontent.com/51235418/205495887-255e2dc1-be5d-4767-8d20-41635a6ba11c.svg)
+![reserved](https://user-images.githubusercontent.com/51235418/205495943-e9556dd9-90e4-4f01-b4c8-66fdbc2373ec.svg)
