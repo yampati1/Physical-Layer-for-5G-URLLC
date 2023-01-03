@@ -10,6 +10,6 @@
 
 # Resource Consumption Comparisons in uplink
 
-#Collision probability analysis
+# Collision probability analysis
 
-#Impact on eMBB data rate with URLLC Service in Uplink
+# Impact on eMBB data rate with URLLC Service in Uplink
