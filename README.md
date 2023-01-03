@@ -1,8 +1,4 @@
 # Design-of-Physical-Layer-for-5G-URLLC
 URLLC service represents that it requires high reliability and low latency communications. URLLC offers use cases that call for extremely low latency of just 1 ms for data transmission and high network reliability of more than 99.999\%.  The physical layer (PHY) in present 4G wireless network is not viable for this kind of communications because it is not designed specifically for achieving high reliability and latency requirements. Hence, in Release 15, the first complete set of 5G physical layer design for URLLC, was introduced by 3GPP. Release 16, the second 5G release, was completed in December 2019 and enables for increased latency and reliability measurements to accommodate new URLLC use cases. To address new industrial use cases, 3GPP Release 17 expands URLLC functionalities to unlicensed spectrum. Based on physical layer enhancements proposed in standards and research, this focuses on resource management and allocation in both uplink and downlink for a network configured with URLLC users and the presence of eMBB users.
 
-![embb_urllc__dl_ecdf](https://user-images.githubusercontent.com/51235418/205495770-73d0a255-5413-4f99-9468-6244b26a005b.svg)
-![pf_ecdf](https://user-images.githubusercontent.com/51235418/205495829-472669d9-0ad9-4685-868b-310ef5a667d8.svg)
-![myimage](https://user-images.githubusercontent.com/51235418/205495861-cba2c475-fb84-4d6e-97a7-dcbe2e2c6cd4.svg)
-![embb](https://user-images.githubusercontent.com/51235418/205495887-255e2dc1-be5d-4767-8d20-41635a6ba11c.svg)
-![reserved](https://user-images.githubusercontent.com/51235418/205495943-e9556dd9-90e4-4f01-b4c8-66fdbc2373ec.svg)
+
