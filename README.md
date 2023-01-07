@@ -21,5 +21,5 @@
 
 ![col_rbs](https://user-images.githubusercontent.com/51235418/211160548-0639d0db-207a-4189-bcaf-a09623e0348e.svg)
 
-# Impact on eMBB data rate with URLLC Service in Uplink
-![embb_urllc__ul](https://user-images.githubusercontent.com/51235418/211160606-77aad8fe-cb51-4274-8264-d01343c340f6.svg)
+
+
