@@ -1,6 +1,6 @@
 # Library Requirements
 
-- To install required libraries, pip install requirements.txt
+- To install required libraries, use the command in python pip install requirements.txt
 
 
 
