@@ -7,7 +7,8 @@
 
 
 ![embb_urllc__dl_ecdf](https://user-images.githubusercontent.com/51235418/211160434-42df2af6-6f31-403b-bab0-42c3f328d800.svg)
-It is observed that when the network is configured with both eMBB and
+
+- It is observed that when the network is configured with both eMBB and
 URLLC users, the RR scheduler is failed to achieve the certain throughput requirement for
 eMBB users. It can be observed from the simulation that the RR scheduler provides lower sum
 throughput for eMBB users. This is because it assigns the resources without depending on channel
