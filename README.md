@@ -50,9 +50,9 @@ optimization technique.
 # License and Citation
 - If you use this codes, please cite it as:
 
-@software{Yampati_Physical_Layer_Design,
+\cite{@software{Yampati_Physical_Layer_Design,
 author = {Yampati, Venkat},
 title = {{Physical Layer Design for 5G URLLC}}
-}
+}}
 
 
