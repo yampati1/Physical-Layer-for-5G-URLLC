@@ -47,5 +47,8 @@ optimization technique.
 ![col_rbs](https://user-images.githubusercontent.com/51235418/211160548-0639d0db-207a-4189-bcaf-a09623e0348e.svg)
 - The figure above depicts the collision probability for K = 4 when it comes to the magnitude of the reserved resources during all transmission occasions. When URLLC users are fixed in the network, it is possible to compute the number of reserved resources needed to achieve the desired collision probability. Based on the placement of reserved resource locations in the URLLC's optimal resource allocation, it is seen that the number of resource blocks lowers. It is clear that the collision probability lowers as the number of URLLC resources rises to service the same number of network users.
 
+# License and Citation
+- If you use this codes, please cite it as:
+
 
 
