@@ -29,9 +29,8 @@ with strict reliable and latency requirements. The results show that, the base-l
 rithms does not meet the isolation and minimum rate requirements when compared with discussed
 optimization technique.
 # Impact on eMBB data rate with URLLC Service in downlink
-
-
 ![embb_urllc_final](https://user-images.githubusercontent.com/51235418/211160441-dfd0e812-7bb0-4cb4-ab98-8fe9b243389b.svg)
+- The results demonstrate that, as anticipated, the sum-rate of both eMBB and URLLC users increases with SNR, as indicated above. This is so that the UEs can select higher order MCS that increase the user's sum-rate as the SNR improves. The sum-rate of users serviced is seen to be higher when all of the cell's active users are connected to the eMBB services than when the cell is using solely URLLC. Users pick higher order MCS because there is less of a reliability constraint for eMBB, which leads to large data rates. The sum-rate is lower than eMBB service when all of the active users in the cell are URLLC, as demonstrated above. The customers prefer lower MCS compared to eMBB since the URLLC reliability limitation must be satisfied. The overall sum-rate of the users is higher than the total sum-rate of all URLLC users and lower than the total sum-rate of all eMBB users when the active users in the cell are linked to both types of services (both eMBB and URLLC). This is due to the fact that URLLC users are scheduled with lower MCS in relation to SNR while eMBB users are scheduled with higher MCS. As a result, the data rate is lower when compared to eMBB traffic but higher when compared to URLLC traffic.With varying reliability targets and a 1 ms URLLC latency, it is therefore noticed that the optimization method assigns the resources to both eMBB and URLLC users. The impact of increasing the number of resources allocated to URLLC users on eMBB data rate is being further investigated.
 
 # Resource Consumption Comparisons in uplink
 
