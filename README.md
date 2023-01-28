@@ -7,7 +7,26 @@
 
 
 ![embb_urllc__dl_ecdf](https://user-images.githubusercontent.com/51235418/211160434-42df2af6-6f31-403b-bab0-42c3f328d800.svg)
-
+It is observed that when the network is configured with both eMBB and
+URLLC users, the RR scheduler is failed to achieve the certain throughput requirement for
+eMBB users. It can be observed from the simulation that the RR scheduler provides lower sum
+throughput for eMBB users. This is because it assigns the resources without depending on channel
+feedback but assigning resources to all users equally irrespective of QoS. The RR scheduler assigns
+resources to both eMBB users and URLLC users but failed to achieve the minimum requirements
+of eMBB users if the sum rate is higher. The EDS is also failed to provide the data sum rate less
+than 30 Kilo bits (Kbits) (shown as dotted straight line) to 50% of eMBB users in the network.
+The total number of available resources are divided equally for both eMBB and URLLC users and
+allocated. As half of the resources are allocated to URLLC, the remaining are allocated to eMBB.
+These resources are not sufficient to provide the minimum throughput to some of the eMBB users.
+The PF scheduler is simulated with various TPF intervals. The simulation shows with increasing in
+TPF increases the throughput of PF scheduler. It provides lower sum rate than EDS scheduler for
+certain values of time interval TPF . And, it also fails for some of the users in the network if the
+minimum sum rate is 30 Kbits. However, by respecting the isolation between service slices, the
+optimization-based maximum rate scheduling algorithm, provides users with resources and satis-
+fies the minimum rate constraint for eMBB users. In parallel, it also provides the URLLC users
+with strict reliable and latency requirements. The results show that, the base-line scheduling algo-
+rithms does not meet the isolation and minimum rate requirements when compared with discussed
+optimization technique.
 # Impact on eMBB data rate with URLLC Service in downlink
 
 
